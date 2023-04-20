@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Arithmetic Operators</title>
+	<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body background="image.jpg">
+
+		<big><p><mark>j = 10, r=5;</mark></p></big>
+		<ol type="1.">
+			<big><li><mark>j + r = <strong id="p1"></strong></mark></li></big>
+			<big><li><mark>j - r = <strong id="p2"></strong></mark></li></big>
+			<big><li><mark>j * r = <strong id="p3"></strong></mark></li></big>
+			<big><li><mark>j / r = <strong id="p4"></strong></mark></li></big>
+			<big><li><mark>j % r = <strong id="p5"></strong></mark></li></big>
+		</ol>
+	<script type="text/javascript">
+		
+		let j=10, r=5;
+
+		let sum = j + r;
+		let diff = j - r;
+		let product = j * r;
+		let quotient = j / r;
+		let remainder = j % r;
+
+
+
+			alert("The sum of two numbers: " + sum + "\n" + "The difference of two numbers: " + diff + "\n" + "The product of two numbers: " + product + "\n" + "The quotient of two numbers: " + quotient + "\n" + "The remainder of two numbers: " + remainder);
+
+		//variable declaration;assignment of values
+		document.getElementById("p1").innerHTML = j + r;
+		document.getElementById("p2").innerHTML = j - r;
+		document.getElementById("p3").innerHTML = j * r;
+		document.getElementById("p4").innerHTML = j / r;
+		document.getElementById("p5").innerHTML = j % r;
+	</script>
+</body>
+</html>
